@@ -135,7 +135,3 @@ test/
 
 ⭐ If you found this project useful, feel free to star the repository!
 ```text
-python-auth-system/
-│
-├── auth_system.py
-└── README.md
