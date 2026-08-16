@@ -31,8 +31,8 @@ The project supports user registration, login, logout, password changes, and inp
 ```text
 python-auth-system/
 │
-├── main.py
-├── tests/
+├── auth_system.py
+├── test/
 │   └── test_account_site.py
 │
 └── README.md
@@ -55,7 +55,7 @@ cd python-auth-system
 ### Run the project
 
 ```bash
-python main.py
+python auth_system.py
 ```
 
 ## 🧪 Running Tests
@@ -71,7 +71,7 @@ python -m unittest discover -s tests
 ## 💻 Usage
 
 ```python
-from main import Account, Site
+from auth_system import Account, Site
 
 
 # Create a new account
@@ -119,7 +119,7 @@ They are hashed using the **SHA-256 algorithm** before being stored.
 The project uses Python's built-in `unittest` framework to test the initialization and behavior of the main classes.
 
 ```text
-tests/
+test/
 └── test_account_site.py
 ```
 
